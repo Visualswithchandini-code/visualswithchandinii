@@ -3218,7 +3218,7 @@ html {
 /* Default: Desktop size */
 .logo-img {
   max-width: 200px;
-  width: auto;
+  width: 100%;
   height: auto;
   display: block;
 }
@@ -3226,7 +3226,7 @@ html {
 /* On small screens: shrink logo */
 @media (max-width: 563px) {
   .logo-img {
-    max-width: auto;
+    max-width: 75px;
   }
 }
 
