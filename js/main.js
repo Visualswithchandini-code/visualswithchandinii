@@ -49,10 +49,15 @@
     /*------------------
 		Navigation
 	--------------------*/
-    $(".mobile-menu").slicknav({
-        prependTo: '#mobile-menu-wrap',
-        allowParentLinks: true
-    });
+    // $(".mobile-menu").slicknav({
+    //     prependTo: '#mobile-menu-wrap',
+    //     allowParentLinks: true
+    // });
+$('.mobile-menu').slicknav({
+    prependTo: '#mobile-menu-wrap',
+    label: '',           // Removes the "MENU" text
+    brand: ''            // Ensures no brand shows
+});
 
     /*------------------
 		Hero Slider
@@ -222,6 +227,8 @@ $(".owl-carousel3").owlCarousel({
     992: { items: 3 }    // Desktop: 3 slides
   }
 });
+
+
 
 })(jQuery);
 

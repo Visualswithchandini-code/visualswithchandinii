@@ -3327,3 +3327,34 @@ element {
   border-radius: 50%;
 } */
 
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  list-style: none;
+  gap: 30px;
+}
+
+.social-icons {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+}
+
+.slicknav_menu {
+    background: transparent !important;
+    padding: 0 !important;
+    margin-top: 10px;
+}
+
+.slicknav_btn {
+    background: none !important;
+    box-shadow: none !important;
+    padding: 5px 10px !important;
+    border-radius: 0 !important;
+}
+
+.slicknav_menu .slicknav_menutxt {
+    display: none !important; /* hides "MENU" text if it still appears */
+}
