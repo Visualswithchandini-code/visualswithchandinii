@@ -1237,11 +1237,38 @@ ol {
   background: #100028;
   padding: 100px 20px;
 }
+.logo-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.header__logo {
+  padding: 10px 0;
+}
+
+.header__nav__option {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: left;
+  justify-content: space-between;
+}
+
+@media (max-width: 532px) {
+  .header__logo {
+    text-align: left;
+    margin-bottom: 10px;
+  }
+
+  .header__nav__option {
+    flex-direction: column;
+  }
+}
 
 .logo__carousel.owl-carousel .owl-item img {
   width: auto;
   display: inline-block;
 }
+
 
 /*---------------------
   Portfolio
