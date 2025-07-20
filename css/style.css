@@ -3230,6 +3230,27 @@ html {
   }
 }
 
+.header__logo {
+  padding: 0;
+  margin: 0;
+}
+
+.header__logo a {
+  display: block;
+}
+
+.logo-img {
+  max-width: auto;
+  height: auto;
+  display: block;
+}
+
+@media (min-width: 532px) {
+  .col-lg-2 {
+    padding-left: 0 !important;
+  }
+}
+
 
 /* ####################### */
 #activity {
