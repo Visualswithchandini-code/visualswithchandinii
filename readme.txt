@@ -1,4 +1,3 @@
-# visualswithchandinii
 # 🎨 VisualswithChandini — Portfolio Website
 
 Welcome to **VisualswithChandini**, a personal portfolio showcasing the design works, projects, and creative vision of **Chandini Mohammad**, a professional graphic designer specializing in logo design, branding, web UI, and event visuals.
